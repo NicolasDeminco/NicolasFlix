@@ -1,0 +1,82 @@
+body {
+    color: #ffffff;
+    background-color: black;
+    margin: 3px;
+    font-family: "Bebas Neue", sans-serif;
+}
+
+header {
+    border-bottom: solid 2px rgb(115, 0, 115);
+    padding: 20px;
+    font-size: 40px;
+    color: rgb(115, 0, 115);
+    text-align: center;
+}
+
+section {
+    background-color: rgb(159, 156, 166);
+    padding-bottom: 80px;
+    padding-top: 80px;
+    display: flex; 
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+
+/* Adicionando a cor de fundo branca para a seção de Filmes e Séries */
+section:last-of-type {
+    background-color: black; /* Define o fundo branco para a seção de filmes e séries */
+    padding: 20px; /* Ajusta o padding para a nova cor de fundo */
+}
+
+.chamada-texto {
+    margin-right: 5%;
+    max-width: 600px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 45px;
+    color: aqua;
+    -webkit-text-stroke: 0.1px;
+    -webkit-text-stroke-color: black;
+    margin: 10px 0;
+}
+
+p {
+    font-size: 30px;
+    color: aqua;
+    -webkit-text-stroke: 0.3px;
+    -webkit-text-stroke-color: black;
+    margin: 10px 0;
+}
+
+img {
+    height: 200px;
+    opacity: 0.5;
+    
+}
+
+img:hover {
+    height: 200px;
+    opacity: 1;
+    border: 2px solid red;
+    
+    
+}
+
+.Categoria-videos {
+    display: flex;
+    overflow-x: auto; /* Adiciona a barra de rolagem horizontal */
+    overflow-y: hidden; /* Remove a barra de rolagem vertical */
+    white-space: nowrap; /* Garante que os itens não quebrem linha */
+    padding-bottom: 10px; /* Adiciona espaçamento para a barra de rolagem não cobrir o conteúdo */
+    gap: 20px
+}
+
+h2 {   font-size: 40px;
+    color: white;
+    -webkit-text-stroke: 0.1px;
+    -webkit-text-stroke-color: black;
+    margin: 10px 0;}
+
